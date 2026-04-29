@@ -6,8 +6,8 @@ app = Flask(__name__)
 
 def generate_frames():
     camera = cv2.VideoCapture(1)
-    camera.set(cv2.CAP_PROP_FRAME_WIDTH, 9999)
-    camera.set(cv2.CAP_PROP_FRAME_HEIGHT, 9999)
+    camera.set(cv2.CAP_PROP_FRAME_WIDTH, 1920)
+    camera.set(cv2.CAP_PROP_FRAME_HEIGHT, 1080)
     try:
         while True:
             success, frame = camera.read()
