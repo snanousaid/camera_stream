@@ -25,9 +25,9 @@ def index():
 <head>
     <title>Camera Stream</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { background: #000; display: flex; justify-content: center; align-items: center; height: 100vh; }
-        img { max-width: 100% }
+        * { margin: 0; padding: 0; }
+        body { background: #000; }
+        img { display: block; }
     </style>
 </head>
 <body>
