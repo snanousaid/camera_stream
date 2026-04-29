@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 
 def generate_frames():
-    camera = cv2.VideoCapture(0)
+    camera = cv2.VideoCapture(1)
     try:
         while True:
             success, frame = camera.read()
